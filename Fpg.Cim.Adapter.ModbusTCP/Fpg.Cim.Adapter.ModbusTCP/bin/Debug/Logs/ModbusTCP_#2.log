@@ -1,0 +1,26 @@
+[2014-12-22 08:28:37.4505]TRACE | Dormitory708-ShingTech.Dormitory708.kWh (61.220.220.59-502) Command: 0,0,0,0,0,6,255,4,24,38,0,2 
+[2014-12-22 08:28:55.7338]ERROR | ModbusTCP.Read System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 Fpg.Cim.Adapter.ModbusTCP.ModbusTCP.ModbusTCP.Send(Socket socket, Byte[] buffer, Int32 offset, Int32 size, Int32 timeout) 於 c:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\ModbusTCP.cs: 行 1490
+   於 Fpg.Cim.Adapter.ModbusTCP.ModbusTCP.ModbusTCP.ModbusTCP_Operate(String sCommand, Socket gWorkSocket, String sIP, Int32 iLength) 於 c:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\ModbusTCP.cs: 行 182
+[2014-12-22 08:41:39.8224]TRACE | Dormitory708-ShingTech.Dormitory708.kWh (61.220.220.59-502) Command: 0,0,0,0,0,6,255,4,24,38,0,2 
+[2014-12-22 08:53:42.1956]TRACE | Dormitory708-ShingTech.Dormitory708.kWh (61.220.220.59-502) Command: 0,0,0,0,0,6,255,4,24,38,0,2 
+[2014-12-22 11:18:01.2574]TRACE | Dormitory708-ShingTech.Dormitory708.kWh (61.220.220.59-502) Command: 0,0,0,0,0,6,1,4,24,38,0,2 
+[2014-12-22 11:20:32.9499]TRACE | Dormitory708-ShingTech.Dormitory708.kWh (61.220.220.59-502) Command: 0,0,0,0,0,6,1,4,24,38,0,2 
+[2014-12-22 11:25:14.7654]TRACE | Dormitory708-ShingTech.Dormitory708.kWh (61.220.220.59-502) Command: 0,0,0,0,0,6,1,4,24,38,0,2 
+[2014-12-22 11:26:27.6199]TRACE | Dormitory708-ShingTech.Dormitory708.kWh (61.220.220.59-502) Command: 0,0,0,0,0,6,1,4,24,38,0,2 
+[2014-12-22 11:27:05.3268]TRACE | Dormitory708-ShingTech.Dormitory708.kWh (61.220.220.59-502) Command: 0,0,0,0,0,6,1,4,24,38,0,2 
+[2014-12-22 11:27:36.4645]ERROR | ModbusTCP.Read System.Net.Sockets.SocketException (0x80004005): 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。
+   於 Fpg.Cim.Adapter.ModbusTCP.ModbusTCP.ModbusTCP.Receive(Socket socket, Byte[]& buffer, Int32 offset, Int32 size, Int32 timeout) 於 c:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\ModbusTCP.cs: 行 1517
+   於 Fpg.Cim.Adapter.ModbusTCP.ModbusTCP.ModbusTCP.ModbusTCP_Operate(String sCommand, Socket gWorkSocket, String sIP, Int32 iLength) 於 c:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\ModbusTCP.cs: 行 197
+[2014-12-22 11:29:46.1324]TRACE | Dormitory708-ShingTech.Dormitory708.kWh (61.220.220.59-502) Command: 0,0,0,0,0,6,1,4,24,38,0,2 
+[2014-12-22 11:30:17.4728]ERROR | ModbusTCP.Read System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 Fpg.Cim.Adapter.ModbusTCP.ModbusTCP.ModbusTCP.Receive(Socket socket, Byte[]& buffer, Int32 offset, Int32 size, Int32 timeout) 於 c:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\ModbusTCP.cs: 行 1517
+   於 Fpg.Cim.Adapter.ModbusTCP.ModbusTCP.ModbusTCP.ModbusTCP_Operate(String sCommand, Socket gWorkSocket, String sIP, Int32 iLength) 於 c:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\ModbusTCP.cs: 行 197
+[2014-12-22 11:46:18.6194]TRACE | Dormitory708-ShingTech.Dormitory708.kWh (61.220.220.59-502) Command: 0,0,0,0,0,6,1,4,24,38,0,2 
+[2014-12-22 11:48:58.7690]TRACE | Dormitory708-ShingTech.Dormitory708.kWh (61.220.220.59-502) Command: 0,0,0,0,0,6,1,4,24,38,0,2 
+[2014-12-22 12:14:57.8693]TRACE | Dormitory708-ShingTech.Dormitory708.kWh (61.220.220.59-502) Command: 0,0,0,0,0,6,1,4,24,38,0,2 
+[2014-12-22 12:15:43.1911]TRACE | Dormitory708-ShingTech.Dormitory708.kWh (61.220.220.59-502) Command: 0,0,0,0,0,6,1,4,24,38,0,2 
+[2014-12-22 12:16:15.7328]ERROR | ModbusTCP.Read System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 Fpg.Cim.Adapter.ModbusTCP.ModbusTCP.ModbusTCP.Receive(Socket socket, Byte[]& buffer, Int32 offset, Int32 size, Int32 timeout) 於 c:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\ModbusTCP.cs: 行 1518
+   於 Fpg.Cim.Adapter.ModbusTCP.ModbusTCP.ModbusTCP.ModbusTCP_Operate(String sCommand, Socket gWorkSocket, String sIP, Int32 iLength) 於 c:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\ModbusTCP.cs: 行 197
+[2014-12-22 17:52:32.2964]TRACE | Dormitory708-ShingTech.Dormitory708.kWh (61.220.220.59-502) Command: 0,0,0,0,0,6,1,4,24,38,0,2 

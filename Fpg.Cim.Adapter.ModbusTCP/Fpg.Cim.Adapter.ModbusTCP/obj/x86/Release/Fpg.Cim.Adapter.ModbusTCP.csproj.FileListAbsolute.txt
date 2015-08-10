@@ -1,0 +1,14 @@
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Release\Fpg.Cim.Adapter.ModbusTCP.exe.config
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Release\NLog.config
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Release\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Release\Fpg.Cim.Adapter.ModbusTCP.XmlSerializers.dll
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Release\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Release\NLog.dll
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Release\NLog.xml
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Release\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Release\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Release\Fpg.Cim.Adapter.ModbusTCP.XmlSerializers.dll
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Release\Fpg.Cim.Adapter.ModbusTCP.ProjectInstaller.resources
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Release\GenerateResource.write.1.tlog

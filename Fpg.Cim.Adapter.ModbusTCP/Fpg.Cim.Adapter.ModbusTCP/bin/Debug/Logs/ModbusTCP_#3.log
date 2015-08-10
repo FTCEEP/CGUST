@@ -1,0 +1,10 @@
+[2014-11-14 16:01:56.5439]ERROR | EEP Client Windows Service異常--  System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 伺服器無法處理要求。 ---> System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 Fpg.Cim.Adapter.EEP_Client_WS.Service.EEP_Client_WS..ctor()
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   於 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   於 Fpg.Cim.Adapter.ModbusTCP.EEP_Client_WS.EEP_Client_WS.Get_PointsData_ModbusTCP(String sCompanyID, String sIP, String sPort) 於 c:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141112 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Web References\EEP_Client_WS\Reference.cs: 行 328
+   於 Fpg.Cim.Adapter.ModbusTCP.ModbusTCP.ModbusTCP.Start() 於 c:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141112 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\ModbusTCP.cs: 行 48
+[2014-11-14 16:01:57.1835]ERROR | ModbusRTU.讀取設備參數階段 System.IndexOutOfRangeException: 找不到資料表 0。
+   於 System.Data.DataTableCollection.get_Item(Int32 index)
+   於 Fpg.Cim.Adapter.ModbusTCP.ModbusTCP.ModbusTCP.Start() 於 c:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141112 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\ModbusTCP.cs: 行 56

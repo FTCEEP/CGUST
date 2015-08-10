@@ -1,0 +1,19 @@
+[2014-09-30 12:36:41.4059]INFO | ------------------╰参把计-------------------- 
+[2014-09-30 12:36:41.4249]INFO | ╰参App.config砞﹚CompanyID: MCUT 
+[2014-09-30 12:36:41.4249]INFO | ╰参App.config砞﹚ProjectID: MCUT_HeatPump 
+[2014-09-30 12:36:41.4249]INFO | ╰参App.config砞﹚EquipmentIDs: Tower01 
+[2014-09-30 12:36:41.4249]INFO | ╰参App.config砞﹚IP: 192.168.108.240 
+[2014-09-30 12:36:41.4249]INFO | ╰参App.config砞﹚Port: 502 
+[2014-09-30 12:36:41.4249]INFO | ╰参App.config砞﹚ProgrammerMail: milton31413@fpg.com.tw 
+[2014-09-30 12:36:41.4249]INFO | ╰参App.config砞﹚ReTryTimes: 1 
+[2014-09-30 12:36:41.4249]INFO | ╰参App.config砞﹚DBCallTimes: 3 
+[2014-09-30 12:36:41.4249]INFO | ╰参App.config砞﹚CheckMeterParaTime: 5 
+[2014-09-30 12:36:41.4249]INFO | ╰参App.config砞﹚SplitSymbol: . 
+[2014-09-30 12:36:41.4249]INFO | ╰参App.config砞﹚ReceiveTimeout: 30 
+[2014-09-30 12:36:41.4249]INFO | ╰参App.config砞﹚EquipmentsFilePath: C:\TA-LR6641-Second.xml 
+[2014-09-30 12:36:41.4249]INFO | ╰参App.config砞﹚PointsFilePath: C:\TA-LR6641-Points.xml 
+[2014-09-30 12:36:41.4249]INFO | ╰参App.config砞﹚EquipmentStateTime: 60 
+[2014-09-30 12:36:41.4249]INFO | ╰参App.config砞﹚SystemRunTimeRecord: 120 
+[2014-09-30 12:36:41.4249]INFO | ╰参App.config砞﹚EquipmentType: ね 
+[2014-09-30 12:36:41.4249]INFO | ╰参App.config砞﹚EquipmenStateCheck: 600 
+[2014-09-30 12:36:41.4249]INFO | ------------------╰参把计-------------------- 

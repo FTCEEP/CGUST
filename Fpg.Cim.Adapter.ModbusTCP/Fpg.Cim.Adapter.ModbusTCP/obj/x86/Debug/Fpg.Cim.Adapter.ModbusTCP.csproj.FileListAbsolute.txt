@@ -1,0 +1,171 @@
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140321\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140321\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe.config
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140321\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.config
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140321\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140321\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140321\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.dll
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140321\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.xml
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140321\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140321\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140407\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe.config
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140407\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140407\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.config
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe.config
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.dll
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.xml
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.ProjectInstaller.resources
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140409\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140430\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe.config
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140430\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140430\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140430\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.config
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140430\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140430\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140430\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.dll
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140430\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.xml
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140430\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140430\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.ProjectInstaller.resources
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140430\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\程式區\Adapters\ModbusTCP\20140430\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\DT\Desktop\程式區\Adapters\ModbusTCP\20140917\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe.config
+C:\Users\DT\Desktop\程式區\Adapters\ModbusTCP\20140917\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Users\DT\Desktop\程式區\Adapters\ModbusTCP\20140917\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Users\DT\Desktop\程式區\Adapters\ModbusTCP\20140917\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csprojResolveAssemblyReference.cache
+C:\Users\DT\Desktop\程式區\Adapters\ModbusTCP\20140917\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.ProjectInstaller.resources
+C:\Users\DT\Desktop\程式區\Adapters\ModbusTCP\20140917\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csproj.GenerateResource.Cache
+C:\Users\DT\Desktop\程式區\Adapters\ModbusTCP\20140917\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.config
+C:\Users\DT\Desktop\程式區\Adapters\ModbusTCP\20140917\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Users\DT\Desktop\程式區\Adapters\ModbusTCP\20140917\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Users\DT\Desktop\程式區\Adapters\ModbusTCP\20140917\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.dll
+C:\Users\DT\Desktop\程式區\Adapters\ModbusTCP\20140917\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.xml
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20140917\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe.config
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20140917\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20140917\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20140930\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe.config
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20140930\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20140930\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20140930\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.config
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20140930\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20140930\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20140930\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.dll
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20140930\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.xml
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20140930\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.ProjectInstaller.resources
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20140930\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csproj.GenerateResource.Cache
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141024 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe.config
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141024 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141024 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141024 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.config
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141024 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141024 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141024 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.dll
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141024 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.xml
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141024 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csprojResolveAssemblyReference.cache
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141024 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.ProjectInstaller.resources
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141024 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csproj.GenerateResource.Cache
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141103 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe.config
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141103 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141103 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141104 - 長友城熱泵圖控 - 複製\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe.config
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141104 - 長友城熱泵圖控 - 複製\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141104 - 長友城熱泵圖控 - 複製\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141104 - 長友城熱泵圖控 - 複製\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.config
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141104 - 長友城熱泵圖控 - 複製\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141104 - 長友城熱泵圖控 - 複製\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141104 - 長友城熱泵圖控 - 複製\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.dll
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141104 - 長友城熱泵圖控 - 複製\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.xml
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141104 - 長友城熱泵圖控 - 複製\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.ProjectInstaller.resources
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141104 - 長友城熱泵圖控 - 複製\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csproj.GenerateResource.Cache
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141104 - 長友城熱泵圖控 - 複製\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csprojResolveAssemblyReference.cache
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141112 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe.config
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141112 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141112 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141112 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.config
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141112 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141112 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141112 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.dll
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141112 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.xml
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141112 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.ProjectInstaller.resources
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141112 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csproj.GenerateResource.Cache
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141112 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csprojResolveAssemblyReference.cache
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141120 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe.config
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141120 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141120 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141120 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.ProjectInstaller.resources
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141120 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csproj.GenerateResource.Cache
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141120 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.config
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141120 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141120 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141120 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.dll
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141120 - 長友城熱泵圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.xml
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe.config
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.config
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.dll
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.xml
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csprojResolveAssemblyReference.cache
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.ProjectInstaller.resources
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csproj.GenerateResource.Cache
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe.config
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.config
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.dll
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.xml
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.ProjectInstaller.resources
+C:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csproj.GenerateResource.Cache
+Z:\VM Share\迅嘉\201510107 - 迅嘉 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe.config
+Z:\VM Share\迅嘉\201510107 - 迅嘉 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+Z:\VM Share\迅嘉\201510107 - 迅嘉 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+Z:\VM Share\迅嘉\201510107 - 迅嘉 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.config
+Z:\VM Share\迅嘉\201510107 - 迅嘉 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+Z:\VM Share\迅嘉\201510107 - 迅嘉 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+Z:\VM Share\迅嘉\201510107 - 迅嘉 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.dll
+Z:\VM Share\迅嘉\201510107 - 迅嘉 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.xml
+Z:\VM Share\迅嘉\201510107 - 迅嘉 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.ProjectInstaller.resources
+Z:\VM Share\迅嘉\201510107 - 迅嘉 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csproj.GenerateResource.Cache
+Z:\VM Share\迅嘉\201510107 - 迅嘉 - client\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csprojResolveAssemblyReference.cache
+Z:\VM Share\迅嘉\20150116 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe.config
+Z:\VM Share\迅嘉\20150116 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+Z:\VM Share\迅嘉\20150116 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+Z:\VM Share\迅嘉\20150116 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.config
+Z:\VM Share\迅嘉\20150116 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+Z:\VM Share\迅嘉\20150116 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+Z:\VM Share\迅嘉\20150116 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.dll
+Z:\VM Share\迅嘉\20150116 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.xml
+Z:\VM Share\迅嘉\20150116 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csprojResolveAssemblyReference.cache
+Z:\VM Share\迅嘉\20150116 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.ProjectInstaller.resources
+Z:\VM Share\迅嘉\20150116 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csproj.GenerateResource.Cache
+Z:\VM Share\迅嘉\20150204 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe.config
+Z:\VM Share\迅嘉\20150204 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+Z:\VM Share\迅嘉\20150204 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+Z:\VM Share\迅嘉\20150204 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.config
+Z:\VM Share\迅嘉\20150204 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+Z:\VM Share\迅嘉\20150204 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+Z:\VM Share\迅嘉\20150204 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.dll
+Z:\VM Share\迅嘉\20150204 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.xml
+Z:\VM Share\迅嘉\20150204 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.ProjectInstaller.resources
+Z:\VM Share\迅嘉\20150204 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csproj.GenerateResource.Cache
+Z:\VM Share\迅嘉\20150204 - 迅嘉 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csprojResolveAssemblyReference.cache
+Z:\VM Share\長庚科大節能教室\AP\20150723 - 長庚科大 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe.config
+Z:\VM Share\長庚科大節能教室\AP\20150723 - 長庚科大 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+Z:\VM Share\長庚科大節能教室\AP\20150723 - 長庚科大 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+Z:\VM Share\長庚科大節能教室\AP\20150723 - 長庚科大 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.ProjectInstaller.resources
+Z:\VM Share\長庚科大節能教室\AP\20150723 - 長庚科大 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csproj.GenerateResource.Cache
+Z:\VM Share\長庚科大節能教室\AP\20150723 - 長庚科大 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.config
+Z:\VM Share\長庚科大節能教室\AP\20150723 - 長庚科大 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.exe
+Z:\VM Share\長庚科大節能教室\AP\20150723 - 長庚科大 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\Fpg.Cim.Adapter.ModbusTCP.pdb
+Z:\VM Share\長庚科大節能教室\AP\20150723 - 長庚科大 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.dll
+Z:\VM Share\長庚科大節能教室\AP\20150723 - 長庚科大 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\bin\Debug\NLog.xml
+Z:\VM Share\長庚科大節能教室\AP\20150723 - 長庚科大 - ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\obj\x86\Debug\Fpg.Cim.Adapter.ModbusTCP.csprojResolveAssemblyReference.cache

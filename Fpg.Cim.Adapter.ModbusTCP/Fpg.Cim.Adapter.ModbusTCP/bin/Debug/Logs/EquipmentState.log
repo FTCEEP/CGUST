@@ -1,0 +1,36 @@
+[2014-12-09 11:47:48.1344]ERROR | EquipmentState.Start System.IO.FileNotFoundException: 找不到檔案 'C:\TA-LR6641-Second.xml'。
+檔案名稱: 'C:\TA-LR6641-Second.xml'
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   於 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   於 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   於 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   於 System.Threading.CompressedStack.runTryCode(Object userData)
+   於 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   於 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   於 System.Xml.XmlTextReaderImpl.OpenUrl()
+   於 System.Xml.XmlTextReaderImpl.Read()
+   於 System.Xml.XmlTextReader.Read()
+   於 System.Xml.XmlReader.MoveToContent()
+   於 System.Data.DataSet.ReadXml(XmlReader reader, Boolean denyResolving)
+   於 System.Data.DataSet.ReadXml(String fileName)
+   於 Fpg.Cim.Adapter.ModbusTCP.EquipmentState.EquipmentState.Start() 於 c:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\EquipmentState.cs: 行 29
+[2014-12-09 11:48:23.3534]ERROR | EquipmentState.Start System.IO.FileNotFoundException: 找不到檔案 'C:\TA-LR6641-Second.xml'。
+檔案名稱: 'C:\TA-LR6641-Second.xml'
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   於 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   於 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   於 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   於 System.Threading.CompressedStack.runTryCode(Object userData)
+   於 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   於 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   於 System.Xml.XmlTextReaderImpl.OpenUrl()
+   於 System.Xml.XmlTextReaderImpl.Read()
+   於 System.Xml.XmlTextReader.Read()
+   於 System.Xml.XmlReader.MoveToContent()
+   於 System.Data.DataSet.ReadXml(XmlReader reader, Boolean denyResolving)
+   於 System.Data.DataSet.ReadXml(String fileName)
+   於 Fpg.Cim.Adapter.ModbusTCP.EquipmentState.EquipmentState.Start() 於 c:\Users\Maple Lee\Desktop\Adapters\ModbusTCP\20141209 - 迅嘉圖控\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\EquipmentState.cs: 行 29

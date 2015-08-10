@@ -1,0 +1,57 @@
+[2014-11-03 11:39:45.8770]INFO | ------------------╰参把计-------------------- 
+[2014-11-03 11:39:45.9394]INFO | ╰参App.config砞﹚CompanyID: MCUT 
+[2014-11-03 11:39:45.9394]INFO | ╰参App.config砞﹚ProjectID: MCUT_HeatPump 
+[2014-11-03 11:39:45.9394]INFO | ╰参App.config砞﹚EquipmentIDs: Tower01 
+[2014-11-03 11:39:45.9394]INFO | ╰参App.config砞﹚IP: 192.168.108.240 
+[2014-11-03 11:39:45.9394]INFO | ╰参App.config砞﹚Port: 502 
+[2014-11-03 11:39:45.9394]INFO | ╰参App.config砞﹚ProgrammerMail: milton31413@fpg.com.tw 
+[2014-11-03 11:39:45.9394]INFO | ╰参App.config砞﹚ReTryTimes: 1 
+[2014-11-03 11:39:45.9394]INFO | ╰参App.config砞﹚DBCallTimes: 3 
+[2014-11-03 11:39:45.9394]INFO | ╰参App.config砞﹚CheckMeterParaTime: 5 
+[2014-11-03 11:39:45.9394]INFO | ╰参App.config砞﹚SplitSymbol: . 
+[2014-11-03 11:39:45.9394]INFO | ╰参App.config砞﹚ReceiveTimeout: 30 
+[2014-11-03 11:39:45.9394]INFO | ╰参App.config砞﹚EquipmentsFilePath: C:\TA-LR6641-Second.xml 
+[2014-11-03 11:39:45.9394]INFO | ╰参App.config砞﹚PointsFilePath: C:\TA-LR6641-Points.xml 
+[2014-11-03 11:39:45.9394]INFO | ╰参App.config砞﹚EquipmentStateTime: 60 
+[2014-11-03 11:39:45.9394]INFO | ╰参App.config砞﹚SystemRunTimeRecord: 120 
+[2014-11-03 11:39:45.9394]INFO | ╰参App.config砞﹚EquipmentType: ね 
+[2014-11-03 11:39:45.9550]INFO | ╰参App.config砞﹚EquipmenStateCheck: 600 
+[2014-11-03 11:39:45.9550]INFO | ------------------╰参把计-------------------- 
+[2014-11-03 11:40:21.6738]INFO | ------------------╰参把计-------------------- 
+[2014-11-03 11:40:21.6894]INFO | ╰参App.config砞﹚CompanyID: MCUT 
+[2014-11-03 11:40:21.6894]INFO | ╰参App.config砞﹚ProjectID: MCUT_HeatPump 
+[2014-11-03 11:40:21.6894]INFO | ╰参App.config砞﹚EquipmentIDs: Tower01 
+[2014-11-03 11:40:21.6894]INFO | ╰参App.config砞﹚IP: 192.168.108.240 
+[2014-11-03 11:40:21.7050]INFO | ╰参App.config砞﹚Port: 502 
+[2014-11-03 11:40:21.7050]INFO | ╰参App.config砞﹚ProgrammerMail: milton31413@fpg.com.tw 
+[2014-11-03 11:40:21.7050]INFO | ╰参App.config砞﹚ReTryTimes: 1 
+[2014-11-03 11:40:21.7050]INFO | ╰参App.config砞﹚DBCallTimes: 3 
+[2014-11-03 11:40:21.7050]INFO | ╰参App.config砞﹚CheckMeterParaTime: 5 
+[2014-11-03 11:40:21.7050]INFO | ╰参App.config砞﹚SplitSymbol: . 
+[2014-11-03 11:40:21.7050]INFO | ╰参App.config砞﹚ReceiveTimeout: 30 
+[2014-11-03 11:40:21.7050]INFO | ╰参App.config砞﹚EquipmentsFilePath: C:\TA-LR6641-Second.xml 
+[2014-11-03 11:40:21.7050]INFO | ╰参App.config砞﹚PointsFilePath: C:\TA-LR6641-Points.xml 
+[2014-11-03 11:40:21.7050]INFO | ╰参App.config砞﹚EquipmentStateTime: 60 
+[2014-11-03 11:40:21.7050]INFO | ╰参App.config砞﹚SystemRunTimeRecord: 120 
+[2014-11-03 11:40:21.7050]INFO | ╰参App.config砞﹚EquipmentType: ね 
+[2014-11-03 11:40:21.7050]INFO | ╰参App.config砞﹚EquipmenStateCheck: 600 
+[2014-11-03 11:40:21.7050]INFO | ------------------╰参把计-------------------- 
+[2014-11-03 15:00:52.3302]INFO | ------------------╰参把计-------------------- 
+[2014-11-03 15:00:52.3922]INFO | ╰参App.config砞﹚CompanyID: MCUT 
+[2014-11-03 15:00:52.3922]INFO | ╰参App.config砞﹚ProjectID: MCUT_HeatPump 
+[2014-11-03 15:00:52.3922]INFO | ╰参App.config砞﹚EquipmentIDs: Tower01 
+[2014-11-03 15:00:52.3922]INFO | ╰参App.config砞﹚IP: 192.168.108.240 
+[2014-11-03 15:00:52.3922]INFO | ╰参App.config砞﹚Port: 502 
+[2014-11-03 15:00:52.4062]INFO | ╰参App.config砞﹚ProgrammerMail: milton31413@fpg.com.tw 
+[2014-11-03 15:00:52.4062]INFO | ╰参App.config砞﹚ReTryTimes: 1 
+[2014-11-03 15:00:52.4062]INFO | ╰参App.config砞﹚DBCallTimes: 3 
+[2014-11-03 15:00:52.4062]INFO | ╰参App.config砞﹚CheckMeterParaTime: 5 
+[2014-11-03 15:00:52.4062]INFO | ╰参App.config砞﹚SplitSymbol: . 
+[2014-11-03 15:00:52.4062]INFO | ╰参App.config砞﹚ReceiveTimeout: 30 
+[2014-11-03 15:00:52.4062]INFO | ╰参App.config砞﹚EquipmentsFilePath: C:\TA-LR6641-Second.xml 
+[2014-11-03 15:00:52.4202]INFO | ╰参App.config砞﹚PointsFilePath: C:\TA-LR6641-Points.xml 
+[2014-11-03 15:00:52.4202]INFO | ╰参App.config砞﹚EquipmentStateTime: 60 
+[2014-11-03 15:00:52.4202]INFO | ╰参App.config砞﹚SystemRunTimeRecord: 120 
+[2014-11-03 15:00:52.4202]INFO | ╰参App.config砞﹚EquipmentType: ね 
+[2014-11-03 15:00:52.4202]INFO | ╰参App.config砞﹚EquipmenStateCheck: 600 
+[2014-11-03 15:00:52.4202]INFO | ------------------╰参把计-------------------- 

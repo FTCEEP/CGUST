@@ -1,0 +1,10 @@
+[2014-09-18 17:10:44.9081]ERROR | RecordingSystemLog-- System.ArgumentException: 已經加入含有相同索引鍵的項目。
+   於 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   於 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   於 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   於 Fpg.Cim.Adapter.ModbusTCP.Service1.Service1.RecordingSystemLog() 於 c:\Users\DT\Desktop\程式區\Adapters\ModbusTCP\20140917\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Service1.cs: 行 134
+[2014-09-18 17:11:01.3630]ERROR | RecordingSystemLog-- System.ArgumentException: 已經加入含有相同索引鍵的項目。
+   於 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   於 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   於 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   於 Fpg.Cim.Adapter.ModbusTCP.Service1.Service1.RecordingSystemLog() 於 c:\Users\DT\Desktop\程式區\Adapters\ModbusTCP\20140917\Fpg.Cim.Adapter.ModbusTCP\Fpg.Cim.Adapter.ModbusTCP\Service1.cs: 行 134

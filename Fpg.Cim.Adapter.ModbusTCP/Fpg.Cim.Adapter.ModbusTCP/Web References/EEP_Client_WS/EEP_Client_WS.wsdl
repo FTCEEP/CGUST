@@ -1,0 +1,2252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s1="http://tempuri.org/AbstractTypes" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Set_PointValueToHistoryTable">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="da" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="sProjectID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_PointValueToHistoryTableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Set_PointValueToHistoryTableResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_PointValueToRealTimeTable">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="da" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="sProjectID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_PointValueToRealTimeTableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Set_PointValueToRealTimeTableResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TransformRealToHistory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sProjectID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TransformRealToHistoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TransformRealToHistoryResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_PointsData_ModbusRTU">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sCompanyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sIP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPort" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_PointsData_ModbusRTUResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_PointsData_ModbusRTUResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_PointsData_ModbusTCP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sCompanyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sIP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPort" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_PointsData_ModbusTCPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_PointsData_ModbusTCPResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_PointsData_OPC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sCompanyID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_PointsData_OPCResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_PointsData_OPCResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EEP_Points_Download">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sEEP_Client_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sCompanyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AdapterType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EEP_Points_DownloadResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="EEP_Points_Upload">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sEEP_Client_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sAdapterType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EEP_Points_UploadResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="Insert_AdapterControl">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sEEP_Client_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sIP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sAdapter" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEnable" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtEffectiveDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_AdapterControlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Insert_AdapterControlResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EEP_AdapterState">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sEEP_Client_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sIP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sAdapter" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EEP_AdapterStateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EEP_AdapterStateResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EEP_Menu_Download">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sEEP_Client_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sProjectID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EEP_Menu_DownloadResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestNlog">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestNlogResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="UpdatekWh">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sProjectID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEquipmentID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPointID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dPointValue" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtRecTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdatekWhResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="RecordingTemperature">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sProjectID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="RecordingTemperatureResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_PointsData_MeterPara">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sCompanyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sIP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPort" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sReadMode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_PointsData_MeterParaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_PointsData_MeterParaResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WrtieAdapterLogs">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sContents" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WrtieAdapterLogsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="WrtieAdapterLogsResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_PointsData_FTP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sCompanyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEquipmentID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sIP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="iPort" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_PointsData_FTPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_PointsData_FTPResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_FTPParameter">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sCompanyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEquipmentIDs" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_FTPParameterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_FTPParameterResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_NewestHistoryData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sProjectID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEquipmentID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPointID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sFlag" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_NewestHistoryDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_NewestHistoryDataResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FTPOperationTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sCompanyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEquipmentID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sHost" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtOperater" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOperate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FTPOperationTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="FTPOperationTimeResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FTP_Rework">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sCompanyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEquipmentID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="iSwtich" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtStart" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtEnd" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FTP_ReworkResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FTP_ReworkResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_EquipmentsState">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sCompanyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEquipmentID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sIP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="iPort" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtUpdate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_EquipmentsStateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Update_EquipmentsStateResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Equipments">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sCompanyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEquipmentIDs" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_EquipmentsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_EquipmentsResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_SumTags">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Date" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="sProjectID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_SumTagsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Set_SumTagsResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_AlarmOccur">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sCompanyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEquipmentID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPointID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sAlarmID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtRecTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_AlarmOccurResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Set_AlarmOccurResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Del_AlarmOccur">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sCompanyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEquipmentID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPointID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sAlarmID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtRecTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Del_AlarmOccurResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Del_AlarmOccurResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="boolean" type="s:boolean" />
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="base64Binary" nillable="true" type="s:base64Binary" />
+    </s:schema>
+    <s:schema targetNamespace="http://tempuri.org/AbstractTypes">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:complexType name="StringArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="unbounded" name="String" type="s:string" />
+            </s:sequence>
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="Set_PointValueToHistoryTableSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_PointValueToHistoryTable" />
+  </wsdl:message>
+  <wsdl:message name="Set_PointValueToHistoryTableSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_PointValueToHistoryTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_PointValueToRealTimeTableSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_PointValueToRealTimeTable" />
+  </wsdl:message>
+  <wsdl:message name="Set_PointValueToRealTimeTableSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_PointValueToRealTimeTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="TransformRealToHistorySoapIn">
+    <wsdl:part name="parameters" element="tns:TransformRealToHistory" />
+  </wsdl:message>
+  <wsdl:message name="TransformRealToHistorySoapOut">
+    <wsdl:part name="parameters" element="tns:TransformRealToHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_ModbusRTUSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_PointsData_ModbusRTU" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_ModbusRTUSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_PointsData_ModbusRTUResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_ModbusTCPSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_PointsData_ModbusTCP" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_ModbusTCPSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_PointsData_ModbusTCPResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_OPCSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_PointsData_OPC" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_OPCSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_PointsData_OPCResponse" />
+  </wsdl:message>
+  <wsdl:message name="EEP_Points_DownloadSoapIn">
+    <wsdl:part name="parameters" element="tns:EEP_Points_Download" />
+  </wsdl:message>
+  <wsdl:message name="EEP_Points_DownloadSoapOut">
+    <wsdl:part name="parameters" element="tns:EEP_Points_DownloadResponse" />
+  </wsdl:message>
+  <wsdl:message name="EEP_Points_UploadSoapIn">
+    <wsdl:part name="parameters" element="tns:EEP_Points_Upload" />
+  </wsdl:message>
+  <wsdl:message name="EEP_Points_UploadSoapOut">
+    <wsdl:part name="parameters" element="tns:EEP_Points_UploadResponse" />
+  </wsdl:message>
+  <wsdl:message name="Insert_AdapterControlSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_AdapterControl" />
+  </wsdl:message>
+  <wsdl:message name="Insert_AdapterControlSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_AdapterControlResponse" />
+  </wsdl:message>
+  <wsdl:message name="EEP_AdapterStateSoapIn">
+    <wsdl:part name="parameters" element="tns:EEP_AdapterState" />
+  </wsdl:message>
+  <wsdl:message name="EEP_AdapterStateSoapOut">
+    <wsdl:part name="parameters" element="tns:EEP_AdapterStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="EEP_Menu_DownloadSoapIn">
+    <wsdl:part name="parameters" element="tns:EEP_Menu_Download" />
+  </wsdl:message>
+  <wsdl:message name="EEP_Menu_DownloadSoapOut">
+    <wsdl:part name="parameters" element="tns:EEP_Menu_DownloadResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestNlogSoapIn">
+    <wsdl:part name="parameters" element="tns:TestNlog" />
+  </wsdl:message>
+  <wsdl:message name="TestNlogSoapOut">
+    <wsdl:part name="parameters" element="tns:TestNlogResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdatekWhSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdatekWh" />
+  </wsdl:message>
+  <wsdl:message name="UpdatekWhSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdatekWhResponse" />
+  </wsdl:message>
+  <wsdl:message name="RecordingTemperatureSoapIn">
+    <wsdl:part name="parameters" element="tns:RecordingTemperature" />
+  </wsdl:message>
+  <wsdl:message name="RecordingTemperatureSoapOut">
+    <wsdl:part name="parameters" element="tns:RecordingTemperatureResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_MeterParaSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_PointsData_MeterPara" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_MeterParaSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_PointsData_MeterParaResponse" />
+  </wsdl:message>
+  <wsdl:message name="WrtieAdapterLogsSoapIn">
+    <wsdl:part name="parameters" element="tns:WrtieAdapterLogs" />
+  </wsdl:message>
+  <wsdl:message name="WrtieAdapterLogsSoapOut">
+    <wsdl:part name="parameters" element="tns:WrtieAdapterLogsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_FTPSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_PointsData_FTP" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_FTPSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_PointsData_FTPResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_FTPParameterSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_FTPParameter" />
+  </wsdl:message>
+  <wsdl:message name="Get_FTPParameterSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_FTPParameterResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_NewestHistoryDataSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_NewestHistoryData" />
+  </wsdl:message>
+  <wsdl:message name="Get_NewestHistoryDataSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_NewestHistoryDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="FTPOperationTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:FTPOperationTime" />
+  </wsdl:message>
+  <wsdl:message name="FTPOperationTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:FTPOperationTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="FTP_ReworkSoapIn">
+    <wsdl:part name="parameters" element="tns:FTP_Rework" />
+  </wsdl:message>
+  <wsdl:message name="FTP_ReworkSoapOut">
+    <wsdl:part name="parameters" element="tns:FTP_ReworkResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_EquipmentsStateSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_EquipmentsState" />
+  </wsdl:message>
+  <wsdl:message name="Update_EquipmentsStateSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_EquipmentsStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_EquipmentsSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Equipments" />
+  </wsdl:message>
+  <wsdl:message name="Get_EquipmentsSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_EquipmentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_SumTagsSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_SumTags" />
+  </wsdl:message>
+  <wsdl:message name="Set_SumTagsSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_SumTagsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_AlarmOccurSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_AlarmOccur" />
+  </wsdl:message>
+  <wsdl:message name="Set_AlarmOccurSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_AlarmOccurResponse" />
+  </wsdl:message>
+  <wsdl:message name="Del_AlarmOccurSoapIn">
+    <wsdl:part name="parameters" element="tns:Del_AlarmOccur" />
+  </wsdl:message>
+  <wsdl:message name="Del_AlarmOccurSoapOut">
+    <wsdl:part name="parameters" element="tns:Del_AlarmOccurResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_PointValueToHistoryTableHttpGetIn">
+    <wsdl:part name="da" type="s1:StringArray" />
+    <wsdl:part name="sProjectID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Set_PointValueToHistoryTableHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="Set_PointValueToRealTimeTableHttpGetIn">
+    <wsdl:part name="da" type="s1:StringArray" />
+    <wsdl:part name="sProjectID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Set_PointValueToRealTimeTableHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="TransformRealToHistoryHttpGetIn">
+    <wsdl:part name="sProjectID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TransformRealToHistoryHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_ModbusRTUHttpGetIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sIP" type="s:string" />
+    <wsdl:part name="sPort" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_ModbusRTUHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_ModbusTCPHttpGetIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sIP" type="s:string" />
+    <wsdl:part name="sPort" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_ModbusTCPHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_OPCHttpGetIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_OPCHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="EEP_Points_DownloadHttpGetIn">
+    <wsdl:part name="sEEP_Client_ID" type="s:string" />
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="AdapterType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="EEP_Points_DownloadHttpGetOut" />
+  <wsdl:message name="EEP_Points_UploadHttpGetIn">
+    <wsdl:part name="sEEP_Client_ID" type="s:string" />
+    <wsdl:part name="sAdapterType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="EEP_Points_UploadHttpGetOut" />
+  <wsdl:message name="Insert_AdapterControlHttpGetIn">
+    <wsdl:part name="sEEP_Client_ID" type="s:string" />
+    <wsdl:part name="sIP" type="s:string" />
+    <wsdl:part name="sAdapter" type="s:string" />
+    <wsdl:part name="sEnable" type="s:string" />
+    <wsdl:part name="dtEffectiveDate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Insert_AdapterControlHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="EEP_AdapterStateHttpGetIn">
+    <wsdl:part name="sEEP_Client_ID" type="s:string" />
+    <wsdl:part name="sIP" type="s:string" />
+    <wsdl:part name="sAdapter" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="EEP_AdapterStateHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="EEP_Menu_DownloadHttpGetIn">
+    <wsdl:part name="sEEP_Client_ID" type="s:string" />
+    <wsdl:part name="sProjectID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="EEP_Menu_DownloadHttpGetOut" />
+  <wsdl:message name="TestNlogHttpGetIn" />
+  <wsdl:message name="TestNlogHttpGetOut" />
+  <wsdl:message name="UpdatekWhHttpGetIn">
+    <wsdl:part name="sProjectID" type="s:string" />
+    <wsdl:part name="sEquipmentID" type="s:string" />
+    <wsdl:part name="sPointID" type="s:string" />
+    <wsdl:part name="dPointValue" type="s:string" />
+    <wsdl:part name="dtRecTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdatekWhHttpGetOut" />
+  <wsdl:message name="RecordingTemperatureHttpGetIn">
+    <wsdl:part name="sProjectID" type="s:string" />
+    <wsdl:part name="sResult" type="s1:StringArray" />
+  </wsdl:message>
+  <wsdl:message name="RecordingTemperatureHttpGetOut" />
+  <wsdl:message name="Get_PointsData_MeterParaHttpGetIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sIP" type="s:string" />
+    <wsdl:part name="sPort" type="s:string" />
+    <wsdl:part name="sReadMode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_MeterParaHttpGetOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:message name="WrtieAdapterLogsHttpGetIn">
+    <wsdl:part name="sName" type="s:string" />
+    <wsdl:part name="sContents" type="s:string" />
+    <wsdl:part name="dtTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WrtieAdapterLogsHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_FTPHttpGetIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sEquipmentID" type="s:string" />
+    <wsdl:part name="sIP" type="s:string" />
+    <wsdl:part name="iPort" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_FTPHttpGetOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:message name="Get_FTPParameterHttpGetIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sEquipmentIDs" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Get_FTPParameterHttpGetOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:message name="Get_NewestHistoryDataHttpGetIn">
+    <wsdl:part name="sProjectID" type="s:string" />
+    <wsdl:part name="sEquipmentID" type="s:string" />
+    <wsdl:part name="sPointID" type="s:string" />
+    <wsdl:part name="sFlag" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Get_NewestHistoryDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:message name="FTPOperationTimeHttpGetIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sEquipmentID" type="s:string" />
+    <wsdl:part name="sHost" type="s:string" />
+    <wsdl:part name="dtOperater" type="s:string" />
+    <wsdl:part name="sOperate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="FTPOperationTimeHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="FTP_ReworkHttpGetIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sEquipmentID" type="s:string" />
+    <wsdl:part name="iSwtich" type="s:string" />
+    <wsdl:part name="dtStart" type="s:string" />
+    <wsdl:part name="dtEnd" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="FTP_ReworkHttpGetOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:message name="Update_EquipmentsStateHttpGetIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sEquipmentID" type="s:string" />
+    <wsdl:part name="sIP" type="s:string" />
+    <wsdl:part name="iPort" type="s:string" />
+    <wsdl:part name="dtUpdate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Update_EquipmentsStateHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="Get_EquipmentsHttpGetIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sEquipmentIDs" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Get_EquipmentsHttpGetOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:message name="Set_SumTagsHttpGetIn">
+    <wsdl:part name="Date" type="s:string" />
+    <wsdl:part name="sProjectID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Set_SumTagsHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="Set_AlarmOccurHttpGetIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sEquipmentID" type="s:string" />
+    <wsdl:part name="sPointID" type="s:string" />
+    <wsdl:part name="sAlarmID" type="s:string" />
+    <wsdl:part name="dtRecTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Set_AlarmOccurHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="Del_AlarmOccurHttpGetIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sEquipmentID" type="s:string" />
+    <wsdl:part name="sPointID" type="s:string" />
+    <wsdl:part name="sAlarmID" type="s:string" />
+    <wsdl:part name="dtRecTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Del_AlarmOccurHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="Set_PointValueToHistoryTableHttpPostIn">
+    <wsdl:part name="da" type="s1:StringArray" />
+    <wsdl:part name="sProjectID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Set_PointValueToHistoryTableHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="Set_PointValueToRealTimeTableHttpPostIn">
+    <wsdl:part name="da" type="s1:StringArray" />
+    <wsdl:part name="sProjectID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Set_PointValueToRealTimeTableHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="TransformRealToHistoryHttpPostIn">
+    <wsdl:part name="sProjectID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TransformRealToHistoryHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_ModbusRTUHttpPostIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sIP" type="s:string" />
+    <wsdl:part name="sPort" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_ModbusRTUHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_ModbusTCPHttpPostIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sIP" type="s:string" />
+    <wsdl:part name="sPort" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_ModbusTCPHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_OPCHttpPostIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_OPCHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="EEP_Points_DownloadHttpPostIn">
+    <wsdl:part name="sEEP_Client_ID" type="s:string" />
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="AdapterType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="EEP_Points_DownloadHttpPostOut" />
+  <wsdl:message name="EEP_Points_UploadHttpPostIn">
+    <wsdl:part name="sEEP_Client_ID" type="s:string" />
+    <wsdl:part name="sAdapterType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="EEP_Points_UploadHttpPostOut" />
+  <wsdl:message name="Insert_AdapterControlHttpPostIn">
+    <wsdl:part name="sEEP_Client_ID" type="s:string" />
+    <wsdl:part name="sIP" type="s:string" />
+    <wsdl:part name="sAdapter" type="s:string" />
+    <wsdl:part name="sEnable" type="s:string" />
+    <wsdl:part name="dtEffectiveDate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Insert_AdapterControlHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="EEP_AdapterStateHttpPostIn">
+    <wsdl:part name="sEEP_Client_ID" type="s:string" />
+    <wsdl:part name="sIP" type="s:string" />
+    <wsdl:part name="sAdapter" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="EEP_AdapterStateHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="EEP_Menu_DownloadHttpPostIn">
+    <wsdl:part name="sEEP_Client_ID" type="s:string" />
+    <wsdl:part name="sProjectID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="EEP_Menu_DownloadHttpPostOut" />
+  <wsdl:message name="TestNlogHttpPostIn" />
+  <wsdl:message name="TestNlogHttpPostOut" />
+  <wsdl:message name="UpdatekWhHttpPostIn">
+    <wsdl:part name="sProjectID" type="s:string" />
+    <wsdl:part name="sEquipmentID" type="s:string" />
+    <wsdl:part name="sPointID" type="s:string" />
+    <wsdl:part name="dPointValue" type="s:string" />
+    <wsdl:part name="dtRecTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdatekWhHttpPostOut" />
+  <wsdl:message name="RecordingTemperatureHttpPostIn">
+    <wsdl:part name="sProjectID" type="s:string" />
+    <wsdl:part name="sResult" type="s1:StringArray" />
+  </wsdl:message>
+  <wsdl:message name="RecordingTemperatureHttpPostOut" />
+  <wsdl:message name="Get_PointsData_MeterParaHttpPostIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sIP" type="s:string" />
+    <wsdl:part name="sPort" type="s:string" />
+    <wsdl:part name="sReadMode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_MeterParaHttpPostOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:message name="WrtieAdapterLogsHttpPostIn">
+    <wsdl:part name="sName" type="s:string" />
+    <wsdl:part name="sContents" type="s:string" />
+    <wsdl:part name="dtTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WrtieAdapterLogsHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_FTPHttpPostIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sEquipmentID" type="s:string" />
+    <wsdl:part name="sIP" type="s:string" />
+    <wsdl:part name="iPort" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Get_PointsData_FTPHttpPostOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:message name="Get_FTPParameterHttpPostIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sEquipmentIDs" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Get_FTPParameterHttpPostOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:message name="Get_NewestHistoryDataHttpPostIn">
+    <wsdl:part name="sProjectID" type="s:string" />
+    <wsdl:part name="sEquipmentID" type="s:string" />
+    <wsdl:part name="sPointID" type="s:string" />
+    <wsdl:part name="sFlag" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Get_NewestHistoryDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:message name="FTPOperationTimeHttpPostIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sEquipmentID" type="s:string" />
+    <wsdl:part name="sHost" type="s:string" />
+    <wsdl:part name="dtOperater" type="s:string" />
+    <wsdl:part name="sOperate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="FTPOperationTimeHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="FTP_ReworkHttpPostIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sEquipmentID" type="s:string" />
+    <wsdl:part name="iSwtich" type="s:string" />
+    <wsdl:part name="dtStart" type="s:string" />
+    <wsdl:part name="dtEnd" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="FTP_ReworkHttpPostOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:message name="Update_EquipmentsStateHttpPostIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sEquipmentID" type="s:string" />
+    <wsdl:part name="sIP" type="s:string" />
+    <wsdl:part name="iPort" type="s:string" />
+    <wsdl:part name="dtUpdate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Update_EquipmentsStateHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="Get_EquipmentsHttpPostIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sEquipmentIDs" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Get_EquipmentsHttpPostOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:message name="Set_SumTagsHttpPostIn">
+    <wsdl:part name="Date" type="s:string" />
+    <wsdl:part name="sProjectID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Set_SumTagsHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="Set_AlarmOccurHttpPostIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sEquipmentID" type="s:string" />
+    <wsdl:part name="sPointID" type="s:string" />
+    <wsdl:part name="sAlarmID" type="s:string" />
+    <wsdl:part name="dtRecTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Set_AlarmOccurHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="Del_AlarmOccurHttpPostIn">
+    <wsdl:part name="sCompanyID" type="s:string" />
+    <wsdl:part name="sEquipmentID" type="s:string" />
+    <wsdl:part name="sPointID" type="s:string" />
+    <wsdl:part name="sAlarmID" type="s:string" />
+    <wsdl:part name="dtRecTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Del_AlarmOccurHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:portType name="EEP_Client_WSSoap">
+    <wsdl:operation name="Set_PointValueToHistoryTable">
+      <wsdl:input message="tns:Set_PointValueToHistoryTableSoapIn" />
+      <wsdl:output message="tns:Set_PointValueToHistoryTableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_PointValueToRealTimeTable">
+      <wsdl:input message="tns:Set_PointValueToRealTimeTableSoapIn" />
+      <wsdl:output message="tns:Set_PointValueToRealTimeTableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TransformRealToHistory">
+      <wsdl:input message="tns:TransformRealToHistorySoapIn" />
+      <wsdl:output message="tns:TransformRealToHistorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_ModbusRTU">
+      <wsdl:input message="tns:Get_PointsData_ModbusRTUSoapIn" />
+      <wsdl:output message="tns:Get_PointsData_ModbusRTUSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_ModbusTCP">
+      <wsdl:input message="tns:Get_PointsData_ModbusTCPSoapIn" />
+      <wsdl:output message="tns:Get_PointsData_ModbusTCPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_OPC">
+      <wsdl:input message="tns:Get_PointsData_OPCSoapIn" />
+      <wsdl:output message="tns:Get_PointsData_OPCSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Points_Download">
+      <wsdl:input message="tns:EEP_Points_DownloadSoapIn" />
+      <wsdl:output message="tns:EEP_Points_DownloadSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Points_Upload">
+      <wsdl:input message="tns:EEP_Points_UploadSoapIn" />
+      <wsdl:output message="tns:EEP_Points_UploadSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_AdapterControl">
+      <wsdl:input message="tns:Insert_AdapterControlSoapIn" />
+      <wsdl:output message="tns:Insert_AdapterControlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EEP_AdapterState">
+      <wsdl:input message="tns:EEP_AdapterStateSoapIn" />
+      <wsdl:output message="tns:EEP_AdapterStateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Menu_Download">
+      <wsdl:input message="tns:EEP_Menu_DownloadSoapIn" />
+      <wsdl:output message="tns:EEP_Menu_DownloadSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestNlog">
+      <wsdl:input message="tns:TestNlogSoapIn" />
+      <wsdl:output message="tns:TestNlogSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatekWh">
+      <wsdl:input message="tns:UpdatekWhSoapIn" />
+      <wsdl:output message="tns:UpdatekWhSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RecordingTemperature">
+      <wsdl:input message="tns:RecordingTemperatureSoapIn" />
+      <wsdl:output message="tns:RecordingTemperatureSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_MeterPara">
+      <wsdl:input message="tns:Get_PointsData_MeterParaSoapIn" />
+      <wsdl:output message="tns:Get_PointsData_MeterParaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WrtieAdapterLogs">
+      <wsdl:input message="tns:WrtieAdapterLogsSoapIn" />
+      <wsdl:output message="tns:WrtieAdapterLogsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_FTP">
+      <wsdl:input message="tns:Get_PointsData_FTPSoapIn" />
+      <wsdl:output message="tns:Get_PointsData_FTPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_FTPParameter">
+      <wsdl:input message="tns:Get_FTPParameterSoapIn" />
+      <wsdl:output message="tns:Get_FTPParameterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_NewestHistoryData">
+      <wsdl:input message="tns:Get_NewestHistoryDataSoapIn" />
+      <wsdl:output message="tns:Get_NewestHistoryDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FTPOperationTime">
+      <wsdl:input message="tns:FTPOperationTimeSoapIn" />
+      <wsdl:output message="tns:FTPOperationTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FTP_Rework">
+      <wsdl:input message="tns:FTP_ReworkSoapIn" />
+      <wsdl:output message="tns:FTP_ReworkSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_EquipmentsState">
+      <wsdl:input message="tns:Update_EquipmentsStateSoapIn" />
+      <wsdl:output message="tns:Update_EquipmentsStateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Equipments">
+      <wsdl:input message="tns:Get_EquipmentsSoapIn" />
+      <wsdl:output message="tns:Get_EquipmentsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_SumTags">
+      <wsdl:input message="tns:Set_SumTagsSoapIn" />
+      <wsdl:output message="tns:Set_SumTagsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_AlarmOccur">
+      <wsdl:input message="tns:Set_AlarmOccurSoapIn" />
+      <wsdl:output message="tns:Set_AlarmOccurSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Del_AlarmOccur">
+      <wsdl:input message="tns:Del_AlarmOccurSoapIn" />
+      <wsdl:output message="tns:Del_AlarmOccurSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="EEP_Client_WSHttpGet">
+    <wsdl:operation name="Set_PointValueToHistoryTable">
+      <wsdl:input message="tns:Set_PointValueToHistoryTableHttpGetIn" />
+      <wsdl:output message="tns:Set_PointValueToHistoryTableHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_PointValueToRealTimeTable">
+      <wsdl:input message="tns:Set_PointValueToRealTimeTableHttpGetIn" />
+      <wsdl:output message="tns:Set_PointValueToRealTimeTableHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TransformRealToHistory">
+      <wsdl:input message="tns:TransformRealToHistoryHttpGetIn" />
+      <wsdl:output message="tns:TransformRealToHistoryHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_ModbusRTU">
+      <wsdl:input message="tns:Get_PointsData_ModbusRTUHttpGetIn" />
+      <wsdl:output message="tns:Get_PointsData_ModbusRTUHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_ModbusTCP">
+      <wsdl:input message="tns:Get_PointsData_ModbusTCPHttpGetIn" />
+      <wsdl:output message="tns:Get_PointsData_ModbusTCPHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_OPC">
+      <wsdl:input message="tns:Get_PointsData_OPCHttpGetIn" />
+      <wsdl:output message="tns:Get_PointsData_OPCHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Points_Download">
+      <wsdl:input message="tns:EEP_Points_DownloadHttpGetIn" />
+      <wsdl:output message="tns:EEP_Points_DownloadHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Points_Upload">
+      <wsdl:input message="tns:EEP_Points_UploadHttpGetIn" />
+      <wsdl:output message="tns:EEP_Points_UploadHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_AdapterControl">
+      <wsdl:input message="tns:Insert_AdapterControlHttpGetIn" />
+      <wsdl:output message="tns:Insert_AdapterControlHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EEP_AdapterState">
+      <wsdl:input message="tns:EEP_AdapterStateHttpGetIn" />
+      <wsdl:output message="tns:EEP_AdapterStateHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Menu_Download">
+      <wsdl:input message="tns:EEP_Menu_DownloadHttpGetIn" />
+      <wsdl:output message="tns:EEP_Menu_DownloadHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestNlog">
+      <wsdl:input message="tns:TestNlogHttpGetIn" />
+      <wsdl:output message="tns:TestNlogHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatekWh">
+      <wsdl:input message="tns:UpdatekWhHttpGetIn" />
+      <wsdl:output message="tns:UpdatekWhHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RecordingTemperature">
+      <wsdl:input message="tns:RecordingTemperatureHttpGetIn" />
+      <wsdl:output message="tns:RecordingTemperatureHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_MeterPara">
+      <wsdl:input message="tns:Get_PointsData_MeterParaHttpGetIn" />
+      <wsdl:output message="tns:Get_PointsData_MeterParaHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WrtieAdapterLogs">
+      <wsdl:input message="tns:WrtieAdapterLogsHttpGetIn" />
+      <wsdl:output message="tns:WrtieAdapterLogsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_FTP">
+      <wsdl:input message="tns:Get_PointsData_FTPHttpGetIn" />
+      <wsdl:output message="tns:Get_PointsData_FTPHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_FTPParameter">
+      <wsdl:input message="tns:Get_FTPParameterHttpGetIn" />
+      <wsdl:output message="tns:Get_FTPParameterHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_NewestHistoryData">
+      <wsdl:input message="tns:Get_NewestHistoryDataHttpGetIn" />
+      <wsdl:output message="tns:Get_NewestHistoryDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FTPOperationTime">
+      <wsdl:input message="tns:FTPOperationTimeHttpGetIn" />
+      <wsdl:output message="tns:FTPOperationTimeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FTP_Rework">
+      <wsdl:input message="tns:FTP_ReworkHttpGetIn" />
+      <wsdl:output message="tns:FTP_ReworkHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_EquipmentsState">
+      <wsdl:input message="tns:Update_EquipmentsStateHttpGetIn" />
+      <wsdl:output message="tns:Update_EquipmentsStateHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Equipments">
+      <wsdl:input message="tns:Get_EquipmentsHttpGetIn" />
+      <wsdl:output message="tns:Get_EquipmentsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_SumTags">
+      <wsdl:input message="tns:Set_SumTagsHttpGetIn" />
+      <wsdl:output message="tns:Set_SumTagsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_AlarmOccur">
+      <wsdl:input message="tns:Set_AlarmOccurHttpGetIn" />
+      <wsdl:output message="tns:Set_AlarmOccurHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Del_AlarmOccur">
+      <wsdl:input message="tns:Del_AlarmOccurHttpGetIn" />
+      <wsdl:output message="tns:Del_AlarmOccurHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="EEP_Client_WSHttpPost">
+    <wsdl:operation name="Set_PointValueToHistoryTable">
+      <wsdl:input message="tns:Set_PointValueToHistoryTableHttpPostIn" />
+      <wsdl:output message="tns:Set_PointValueToHistoryTableHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_PointValueToRealTimeTable">
+      <wsdl:input message="tns:Set_PointValueToRealTimeTableHttpPostIn" />
+      <wsdl:output message="tns:Set_PointValueToRealTimeTableHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TransformRealToHistory">
+      <wsdl:input message="tns:TransformRealToHistoryHttpPostIn" />
+      <wsdl:output message="tns:TransformRealToHistoryHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_ModbusRTU">
+      <wsdl:input message="tns:Get_PointsData_ModbusRTUHttpPostIn" />
+      <wsdl:output message="tns:Get_PointsData_ModbusRTUHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_ModbusTCP">
+      <wsdl:input message="tns:Get_PointsData_ModbusTCPHttpPostIn" />
+      <wsdl:output message="tns:Get_PointsData_ModbusTCPHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_OPC">
+      <wsdl:input message="tns:Get_PointsData_OPCHttpPostIn" />
+      <wsdl:output message="tns:Get_PointsData_OPCHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Points_Download">
+      <wsdl:input message="tns:EEP_Points_DownloadHttpPostIn" />
+      <wsdl:output message="tns:EEP_Points_DownloadHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Points_Upload">
+      <wsdl:input message="tns:EEP_Points_UploadHttpPostIn" />
+      <wsdl:output message="tns:EEP_Points_UploadHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_AdapterControl">
+      <wsdl:input message="tns:Insert_AdapterControlHttpPostIn" />
+      <wsdl:output message="tns:Insert_AdapterControlHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EEP_AdapterState">
+      <wsdl:input message="tns:EEP_AdapterStateHttpPostIn" />
+      <wsdl:output message="tns:EEP_AdapterStateHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Menu_Download">
+      <wsdl:input message="tns:EEP_Menu_DownloadHttpPostIn" />
+      <wsdl:output message="tns:EEP_Menu_DownloadHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestNlog">
+      <wsdl:input message="tns:TestNlogHttpPostIn" />
+      <wsdl:output message="tns:TestNlogHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatekWh">
+      <wsdl:input message="tns:UpdatekWhHttpPostIn" />
+      <wsdl:output message="tns:UpdatekWhHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RecordingTemperature">
+      <wsdl:input message="tns:RecordingTemperatureHttpPostIn" />
+      <wsdl:output message="tns:RecordingTemperatureHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_MeterPara">
+      <wsdl:input message="tns:Get_PointsData_MeterParaHttpPostIn" />
+      <wsdl:output message="tns:Get_PointsData_MeterParaHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WrtieAdapterLogs">
+      <wsdl:input message="tns:WrtieAdapterLogsHttpPostIn" />
+      <wsdl:output message="tns:WrtieAdapterLogsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_FTP">
+      <wsdl:input message="tns:Get_PointsData_FTPHttpPostIn" />
+      <wsdl:output message="tns:Get_PointsData_FTPHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_FTPParameter">
+      <wsdl:input message="tns:Get_FTPParameterHttpPostIn" />
+      <wsdl:output message="tns:Get_FTPParameterHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_NewestHistoryData">
+      <wsdl:input message="tns:Get_NewestHistoryDataHttpPostIn" />
+      <wsdl:output message="tns:Get_NewestHistoryDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FTPOperationTime">
+      <wsdl:input message="tns:FTPOperationTimeHttpPostIn" />
+      <wsdl:output message="tns:FTPOperationTimeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FTP_Rework">
+      <wsdl:input message="tns:FTP_ReworkHttpPostIn" />
+      <wsdl:output message="tns:FTP_ReworkHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_EquipmentsState">
+      <wsdl:input message="tns:Update_EquipmentsStateHttpPostIn" />
+      <wsdl:output message="tns:Update_EquipmentsStateHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Equipments">
+      <wsdl:input message="tns:Get_EquipmentsHttpPostIn" />
+      <wsdl:output message="tns:Get_EquipmentsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_SumTags">
+      <wsdl:input message="tns:Set_SumTagsHttpPostIn" />
+      <wsdl:output message="tns:Set_SumTagsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_AlarmOccur">
+      <wsdl:input message="tns:Set_AlarmOccurHttpPostIn" />
+      <wsdl:output message="tns:Set_AlarmOccurHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Del_AlarmOccur">
+      <wsdl:input message="tns:Del_AlarmOccurHttpPostIn" />
+      <wsdl:output message="tns:Del_AlarmOccurHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EEP_Client_WSSoap" type="tns:EEP_Client_WSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Set_PointValueToHistoryTable">
+      <soap:operation soapAction="http://tempuri.org/Set_PointValueToHistoryTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_PointValueToRealTimeTable">
+      <soap:operation soapAction="http://tempuri.org/Set_PointValueToRealTimeTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransformRealToHistory">
+      <soap:operation soapAction="http://tempuri.org/TransformRealToHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_ModbusRTU">
+      <soap:operation soapAction="http://tempuri.org/Get_PointsData_ModbusRTU" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_ModbusTCP">
+      <soap:operation soapAction="http://tempuri.org/Get_PointsData_ModbusTCP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_OPC">
+      <soap:operation soapAction="http://tempuri.org/Get_PointsData_OPC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Points_Download">
+      <soap:operation soapAction="http://tempuri.org/EEP_Points_Download" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Points_Upload">
+      <soap:operation soapAction="http://tempuri.org/EEP_Points_Upload" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_AdapterControl">
+      <soap:operation soapAction="http://tempuri.org/Insert_AdapterControl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EEP_AdapterState">
+      <soap:operation soapAction="http://tempuri.org/EEP_AdapterState" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Menu_Download">
+      <soap:operation soapAction="http://tempuri.org/EEP_Menu_Download" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestNlog">
+      <soap:operation soapAction="http://tempuri.org/TestNlog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatekWh">
+      <soap:operation soapAction="http://tempuri.org/UpdatekWh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecordingTemperature">
+      <soap:operation soapAction="http://tempuri.org/RecordingTemperature" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_MeterPara">
+      <soap:operation soapAction="http://tempuri.org/Get_PointsData_MeterPara" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WrtieAdapterLogs">
+      <soap:operation soapAction="http://tempuri.org/WrtieAdapterLogs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_FTP">
+      <soap:operation soapAction="http://tempuri.org/Get_PointsData_FTP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_FTPParameter">
+      <soap:operation soapAction="http://tempuri.org/Get_FTPParameter" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_NewestHistoryData">
+      <soap:operation soapAction="http://tempuri.org/Get_NewestHistoryData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FTPOperationTime">
+      <soap:operation soapAction="http://tempuri.org/FTPOperationTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FTP_Rework">
+      <soap:operation soapAction="http://tempuri.org/FTP_Rework" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_EquipmentsState">
+      <soap:operation soapAction="http://tempuri.org/Update_EquipmentsState" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Equipments">
+      <soap:operation soapAction="http://tempuri.org/Get_Equipments" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_SumTags">
+      <soap:operation soapAction="http://tempuri.org/Set_SumTags" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_AlarmOccur">
+      <soap:operation soapAction="http://tempuri.org/Set_AlarmOccur" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Del_AlarmOccur">
+      <soap:operation soapAction="http://tempuri.org/Del_AlarmOccur" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EEP_Client_WSSoap12" type="tns:EEP_Client_WSSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Set_PointValueToHistoryTable">
+      <soap12:operation soapAction="http://tempuri.org/Set_PointValueToHistoryTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_PointValueToRealTimeTable">
+      <soap12:operation soapAction="http://tempuri.org/Set_PointValueToRealTimeTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransformRealToHistory">
+      <soap12:operation soapAction="http://tempuri.org/TransformRealToHistory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_ModbusRTU">
+      <soap12:operation soapAction="http://tempuri.org/Get_PointsData_ModbusRTU" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_ModbusTCP">
+      <soap12:operation soapAction="http://tempuri.org/Get_PointsData_ModbusTCP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_OPC">
+      <soap12:operation soapAction="http://tempuri.org/Get_PointsData_OPC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Points_Download">
+      <soap12:operation soapAction="http://tempuri.org/EEP_Points_Download" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Points_Upload">
+      <soap12:operation soapAction="http://tempuri.org/EEP_Points_Upload" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_AdapterControl">
+      <soap12:operation soapAction="http://tempuri.org/Insert_AdapterControl" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EEP_AdapterState">
+      <soap12:operation soapAction="http://tempuri.org/EEP_AdapterState" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Menu_Download">
+      <soap12:operation soapAction="http://tempuri.org/EEP_Menu_Download" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestNlog">
+      <soap12:operation soapAction="http://tempuri.org/TestNlog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatekWh">
+      <soap12:operation soapAction="http://tempuri.org/UpdatekWh" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecordingTemperature">
+      <soap12:operation soapAction="http://tempuri.org/RecordingTemperature" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_MeterPara">
+      <soap12:operation soapAction="http://tempuri.org/Get_PointsData_MeterPara" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WrtieAdapterLogs">
+      <soap12:operation soapAction="http://tempuri.org/WrtieAdapterLogs" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_FTP">
+      <soap12:operation soapAction="http://tempuri.org/Get_PointsData_FTP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_FTPParameter">
+      <soap12:operation soapAction="http://tempuri.org/Get_FTPParameter" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_NewestHistoryData">
+      <soap12:operation soapAction="http://tempuri.org/Get_NewestHistoryData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FTPOperationTime">
+      <soap12:operation soapAction="http://tempuri.org/FTPOperationTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FTP_Rework">
+      <soap12:operation soapAction="http://tempuri.org/FTP_Rework" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_EquipmentsState">
+      <soap12:operation soapAction="http://tempuri.org/Update_EquipmentsState" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Equipments">
+      <soap12:operation soapAction="http://tempuri.org/Get_Equipments" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_SumTags">
+      <soap12:operation soapAction="http://tempuri.org/Set_SumTags" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_AlarmOccur">
+      <soap12:operation soapAction="http://tempuri.org/Set_AlarmOccur" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Del_AlarmOccur">
+      <soap12:operation soapAction="http://tempuri.org/Del_AlarmOccur" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EEP_Client_WSHttpGet" type="tns:EEP_Client_WSHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="Set_PointValueToHistoryTable">
+      <http:operation location="/Set_PointValueToHistoryTable" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_PointValueToRealTimeTable">
+      <http:operation location="/Set_PointValueToRealTimeTable" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransformRealToHistory">
+      <http:operation location="/TransformRealToHistory" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_ModbusRTU">
+      <http:operation location="/Get_PointsData_ModbusRTU" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_ModbusTCP">
+      <http:operation location="/Get_PointsData_ModbusTCP" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_OPC">
+      <http:operation location="/Get_PointsData_OPC" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Points_Download">
+      <http:operation location="/EEP_Points_Download" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Points_Upload">
+      <http:operation location="/EEP_Points_Upload" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_AdapterControl">
+      <http:operation location="/Insert_AdapterControl" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EEP_AdapterState">
+      <http:operation location="/EEP_AdapterState" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Menu_Download">
+      <http:operation location="/EEP_Menu_Download" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="TestNlog">
+      <http:operation location="/TestNlog" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatekWh">
+      <http:operation location="/UpdatekWh" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="RecordingTemperature">
+      <http:operation location="/RecordingTemperature" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_MeterPara">
+      <http:operation location="/Get_PointsData_MeterPara" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WrtieAdapterLogs">
+      <http:operation location="/WrtieAdapterLogs" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_FTP">
+      <http:operation location="/Get_PointsData_FTP" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_FTPParameter">
+      <http:operation location="/Get_FTPParameter" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_NewestHistoryData">
+      <http:operation location="/Get_NewestHistoryData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FTPOperationTime">
+      <http:operation location="/FTPOperationTime" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FTP_Rework">
+      <http:operation location="/FTP_Rework" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_EquipmentsState">
+      <http:operation location="/Update_EquipmentsState" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Equipments">
+      <http:operation location="/Get_Equipments" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_SumTags">
+      <http:operation location="/Set_SumTags" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_AlarmOccur">
+      <http:operation location="/Set_AlarmOccur" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Del_AlarmOccur">
+      <http:operation location="/Del_AlarmOccur" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EEP_Client_WSHttpPost" type="tns:EEP_Client_WSHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="Set_PointValueToHistoryTable">
+      <http:operation location="/Set_PointValueToHistoryTable" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_PointValueToRealTimeTable">
+      <http:operation location="/Set_PointValueToRealTimeTable" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransformRealToHistory">
+      <http:operation location="/TransformRealToHistory" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_ModbusRTU">
+      <http:operation location="/Get_PointsData_ModbusRTU" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_ModbusTCP">
+      <http:operation location="/Get_PointsData_ModbusTCP" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_OPC">
+      <http:operation location="/Get_PointsData_OPC" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Points_Download">
+      <http:operation location="/EEP_Points_Download" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Points_Upload">
+      <http:operation location="/EEP_Points_Upload" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_AdapterControl">
+      <http:operation location="/Insert_AdapterControl" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EEP_AdapterState">
+      <http:operation location="/EEP_AdapterState" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EEP_Menu_Download">
+      <http:operation location="/EEP_Menu_Download" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="TestNlog">
+      <http:operation location="/TestNlog" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatekWh">
+      <http:operation location="/UpdatekWh" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="RecordingTemperature">
+      <http:operation location="/RecordingTemperature" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_MeterPara">
+      <http:operation location="/Get_PointsData_MeterPara" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WrtieAdapterLogs">
+      <http:operation location="/WrtieAdapterLogs" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_PointsData_FTP">
+      <http:operation location="/Get_PointsData_FTP" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_FTPParameter">
+      <http:operation location="/Get_FTPParameter" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_NewestHistoryData">
+      <http:operation location="/Get_NewestHistoryData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FTPOperationTime">
+      <http:operation location="/FTPOperationTime" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FTP_Rework">
+      <http:operation location="/FTP_Rework" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_EquipmentsState">
+      <http:operation location="/Update_EquipmentsState" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Equipments">
+      <http:operation location="/Get_Equipments" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_SumTags">
+      <http:operation location="/Set_SumTags" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_AlarmOccur">
+      <http:operation location="/Set_AlarmOccur" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Del_AlarmOccur">
+      <http:operation location="/Del_AlarmOccur" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EEP_Client_WS">
+    <wsdl:port name="EEP_Client_WSSoap" binding="tns:EEP_Client_WSSoap">
+      <soap:address location="http://localhost/MCUT/Heat%20Pump/EEP_Client_WS/EEP_Client_WS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="EEP_Client_WSSoap12" binding="tns:EEP_Client_WSSoap12">
+      <soap12:address location="http://localhost/MCUT/Heat%20Pump/EEP_Client_WS/EEP_Client_WS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="EEP_Client_WSHttpGet" binding="tns:EEP_Client_WSHttpGet">
+      <http:address location="http://localhost/MCUT/Heat%20Pump/EEP_Client_WS/EEP_Client_WS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="EEP_Client_WSHttpPost" binding="tns:EEP_Client_WSHttpPost">
+      <http:address location="http://localhost/MCUT/Heat%20Pump/EEP_Client_WS/EEP_Client_WS.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
